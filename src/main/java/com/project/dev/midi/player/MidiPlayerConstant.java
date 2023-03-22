@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MidiPlayerConstant} se encarga de realizar tareas específicas.
+ * @fileoverview    {MidiPlayerConstant}
  *
  * @version         2.0
  *
