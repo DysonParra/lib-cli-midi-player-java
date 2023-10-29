@@ -30,7 +30,7 @@ import javax.sound.midi.Sequencer;
 import javax.sound.midi.Synthesizer;
 
 /**
- * TODO: Definición de {@code MidiPlayer}.
+ * TODO: Description of {@code MidiPlayer}.
  *
  * @author Dyson Parra
  * @since 11
@@ -59,7 +59,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Definición de {@code showInstruments}. Muestra los instrumentos del sintetizador.
+     * FIXME: Description of {@code showInstruments}. Muestra los instrumentos del sintetizador.
      */
     public static void showInstruments() {
         Instrument[] loadedInstruments = MidiPlayer.synthesizer.getLoadedInstruments();                 // Obtiene todos los intrumentos cargados en el sintetizador.
@@ -73,7 +73,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Definición de {@code playNote}. Reproduce el sonido de una nota ([0, 127] 60 = Do
+     * FIXME: Description of {@code playNote}. Reproduce el sonido de una nota ([0, 127] 60 = Do
      * central).
      *
      * @param note es la nota a reproducir.
@@ -93,7 +93,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Definición de {@code playMidiFile}. Reproduce un archivo MIDI.
+     * FIXME: Description of {@code playMidiFile}. Reproduce un archivo MIDI.
      *
      * @param inputStream es el archivo MIDI cargado en memoria.
      *
@@ -112,7 +112,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Definición de {@code playMidiFile}. Reproduce un archivo MIDI.
+     * FIXME: Description of {@code playMidiFile}. Reproduce un archivo MIDI.
      *
      * @param path es la ruta del archivo MIDI.
      *
@@ -131,7 +131,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Definición de {@code playMidiFile}. Reproduce un archivo MIDI.
+     * FIXME: Description of {@code playMidiFile}. Reproduce un archivo MIDI.
      *
      * @param inputStream es el archivo MIDI cargado en memoria.
      * @param time        es la cantidad de tiempo que se reproducirá el archivo MIDI en
@@ -156,7 +156,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Definición de {@code playMidiFile}. Reproduce un archivo MIDI.
+     * FIXME: Description of {@code playMidiFile}. Reproduce un archivo MIDI.
      *
      * @param path es la ruta del archivo MIDI.
      * @param time es la cantidad de tiempo que se reproducirá el archivo MIDI en milisegundos, si

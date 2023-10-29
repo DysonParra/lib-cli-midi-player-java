@@ -15,7 +15,7 @@
 package com.project.dev.midi.player;
 
 /**
- * TODO: Definición de {@code MidiPlayerConstant}.
+ * TODO: Description of {@code MidiPlayerConstant}.
  *
  * @author Dyson Parra
  * @since 11
