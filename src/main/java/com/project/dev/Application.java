@@ -14,7 +14,9 @@
  */
 package com.project.dev;
 
-import com.project.dev.midi.player.MidiPlayer;
+import com.project.dev.tester.AppTester;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * TODO: Description of {@code Application}.
@@ -24,23 +26,17 @@ import com.project.dev.midi.player.MidiPlayer;
  */
 public class Application {
 
+    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
     /**
      * Entrada principal del sistema.
      *
      * @param args argumentos de la linea de comandos.
-     * @throws java.lang.Exception
      */
-    public static void main(String[] args) throws Exception {
-        System.out.println("\n...START...");
-        // Reproduce el do central durante 3000 ms.
-        //MidiPlayer.playNote(60, 3000);
-        System.out.println(System.getProperty("user.dir"));
-        // Reproduce el archivo MIDI en la ruta relativa indicada.
-        //MidiPlayer.playMidiFile(MidiPlayer.TEST_MIDI_PROJ_PATH, 000);
-        // Reproduce el archivo MIDI indicado por el buffer de datos del recurso.
-        MidiPlayer.playMidiFile(
-                Application.class.getResourceAsStream(MidiPlayer.TEST_MIDI_RES_PATH), 000);
-        System.out.println("...END...");
+    public static void main(String[] args) {
+        System.out.printf("\nStart date: %s\n\n", DATE_FORMAT.format(new Date()));
+        System.out.printf("\nResult: %s\n", AppTester.startTesting(args));
+        System.out.printf("\nEnd date:   %s\n", DATE_FORMAT.format(new Date()));
     }
 
 }
