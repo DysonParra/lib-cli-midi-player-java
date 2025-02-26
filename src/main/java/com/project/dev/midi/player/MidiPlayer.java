@@ -59,7 +59,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Description of {@code showInstruments}. Muestra los instrumentos del sintetizador.
+     * FIXME: Description of method {@code showInstruments}. Muestra los instrumentos del sintetizador.
      *
      */
     public static void showInstruments() {
@@ -74,7 +74,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Description of {@code playNote}. Reproduce el sonido de una nota ([0, 127] 60 = Do
+     * FIXME: Description of method {@code playNote}. Reproduce el sonido de una nota ([0, 127] 60 = Do
      * central).
      *
      * @param note es la nota a reproducir.
@@ -94,7 +94,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Description of {@code playMidiFile}. Reproduce un archivo MIDI.
+     * FIXME: Description of method {@code playMidiFile}. Reproduce un archivo MIDI.
      *
      * @param inputStream es el archivo MIDI cargado en memoria.
      *
@@ -113,7 +113,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Description of {@code playMidiFile}. Reproduce un archivo MIDI.
+     * FIXME: Description of method {@code playMidiFile}. Reproduce un archivo MIDI.
      *
      * @param path es la ruta del archivo MIDI.
      *
@@ -132,7 +132,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Description of {@code playMidiFile}. Reproduce un archivo MIDI.
+     * FIXME: Description of method {@code playMidiFile}. Reproduce un archivo MIDI.
      *
      * @param inputStream es el archivo MIDI cargado en memoria.
      * @param time        es la cantidad de tiempo que se reproducirá el archivo MIDI en
@@ -157,7 +157,7 @@ public class MidiPlayer implements MidiPlayerConstant {
     }
 
     /**
-     * FIXME: Description of {@code playMidiFile}. Reproduce un archivo MIDI.
+     * FIXME: Description of method {@code playMidiFile}. Reproduce un archivo MIDI.
      *
      * @param path es la ruta del archivo MIDI.
      * @param time es la cantidad de tiempo que se reproducirá el archivo MIDI en milisegundos, si
