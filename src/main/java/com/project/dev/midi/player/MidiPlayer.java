@@ -60,6 +60,7 @@ public class MidiPlayer implements MidiPlayerConstant {
 
     /**
      * FIXME: Description of {@code showInstruments}. Muestra los instrumentos del sintetizador.
+     *
      */
     public static void showInstruments() {
         Instrument[] loadedInstruments = MidiPlayer.synthesizer.getLoadedInstruments();                 // Obtiene todos los intrumentos cargados en el sintetizador.
