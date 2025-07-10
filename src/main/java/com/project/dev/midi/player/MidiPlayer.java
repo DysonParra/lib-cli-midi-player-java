@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MidiPlayer}
+ * @overview        {MidiPlayer}
  *
  * @version         2.0
  *

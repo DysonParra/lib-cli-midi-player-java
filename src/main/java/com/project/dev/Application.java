@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {Application}
+ * @overview        {Application}
  *
  * @version         2.0
  *
@@ -31,7 +31,7 @@ public class Application {
     /**
      * Entrada principal del sistema.
      *
-     * @param args argumentos de la linea de comandos.
+     * @param args argumentos pasados por consola.
      */
     public static void main(String[] args) {
         System.out.printf("\nStart date: %s\n\n", DATE_FORMAT.format(new Date()));

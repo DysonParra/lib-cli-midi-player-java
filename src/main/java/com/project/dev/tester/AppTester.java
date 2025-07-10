@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {AppTester}
+ * @overview        {AppTester}
  *
  * @version         2.0
  *
@@ -27,7 +27,7 @@ public class AppTester {
     /**
      * Ejecuta las pruebas de la aplicación.
      *
-     * @param args argumentos de la linea de comandos.
+     * @param args argumentos pasados por consola.
      * @return {@code true} si se ejecutan las pruebas correctamente, {@code false} caso contrario.
      */
     public static boolean startTesting(String[] args) {
